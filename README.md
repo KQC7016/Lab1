@@ -5,7 +5,7 @@
  * [***Members***](#members)
  * [***Lab 1***](##lab-1---web-scraping-5)
  * [***Environment***](#environment)
-   * [***Python Version***](#python-version)
+   * [***Python Version***](#Python-Version)
    * [***Libraries Used***](#libraries-used)
 
 

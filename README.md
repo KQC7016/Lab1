@@ -4,8 +4,8 @@
 ## Table of Contents
  * [***Members***](#Lab1-WebScraping(5%))
  * [***Lab 1***](#Lab1-WebScraping)
- * [***Environment***](#Environment)
-   * [***Python Version***](#pythonversion)
+ * [***Environment***](##Environment)
+   * [***Python Version***](###pythonversion)
    * [***Libraries Used***](#LibrariesUsed)
 
 

@@ -2,11 +2,11 @@
 
 
 ## Table of Contents
- * [***Members***](#members)
- * [***Lab 1***](##lab-1---web-scraping-5)
- * [***Environment***](#environment)
+ * [***Members***](#Members)
+ * [***Lab 1***](##Lab-1---Web-Scraping-5)
+ * [***Environment***](#Environment)
    * [***Python Version***](#Python-Version)
-   * [***Libraries Used***](#libraries-used)
+   * [***Libraries Used***](#Libraries-Used)
 
 
 

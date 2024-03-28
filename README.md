@@ -93,7 +93,7 @@ You can make sure the Tkinter library is installed by running the following comm
 conda list tkinter
 ```
 If the Tkinter library is installed, you will see it in the list. If it is not installed, you can try to install it using the following command:
-```
+```cmd
 conda install tk
 ```
    

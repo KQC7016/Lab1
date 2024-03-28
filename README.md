@@ -1,6 +1,6 @@
 # Lab1
-
-
+  
+  
 ## Table of Contents
  * [***Members***](#Members)
  * [***Lab 1***](##Lab-1---Web-Scraping-5)
@@ -12,16 +12,15 @@
    * [***time***](#datetime)
    * [***Selenium***](#Selenium)
    * [***tkinter***](#tkinter)
-
-
-
+  
+  
 ## Members
  * [***Jiang Yuping***]()
  * [***Kong Pingfan***](https://github.com/KongPingfanCHN)
  * [***Liu Zonghua***]()
  * [***Wu Yufeng***]()
-
-
+  
+  
 ## Lab 1 - Web Scraping (5%)
 
 1. Study and run [***`lab1.py`***](/lab1.py)
@@ -30,10 +29,11 @@
 3. Prepare a report to explain the function performed in this code, with the help of the print screen of the output.
 4. Modify the code to perform web scraping on another website.
    * You may add additional functions to the code.
-
-
+  
+  
 ## Python Version
 **`Python`** **`3.9.18`** in  Anaconda environment
+
   
 ## Libraries Used
 * [***datetime***](#datetime)
@@ -42,7 +42,7 @@
 * [***time***](#datetime)
 * [***Selenium***](#Selenium)
 * [***tkinter***](#tkinter)
-
+  
 ### datetime
 ---
 `datetime` is part of the Python standard library and usually does not need to be installed separately.
@@ -50,11 +50,11 @@
 ### time
 ---
 `time` is part of the Python standard library and usually does not need to be installed separately.
-
+  
 ### pathlib
 ---
 `datetime` is part of the Python standard library and usually does not need to be installed separately.
-
+  
 ### BeautifulSoup
 ---
 Use the following command to install the BeautifulSoup library:
@@ -84,4 +84,4 @@ If the Tkinter library is installed, you will see it in the list. If it is not i
 conda install tk
 ```
 
-`Back to top`(#Lab1)
+[`Back to top`](#Lab1)

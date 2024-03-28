@@ -13,6 +13,7 @@
    * [***Selenium***](#Selenium)
    * [***tkinter***](#tkinter)
   
+[`Back to top`](#Lab1)
   
 ## Members
  * [***Jiang Yuping***]()
@@ -20,6 +21,7 @@
  * [***Liu Zonghua***]()
  * [***Wu Yufeng***]()
   
+[`Back to top`](#Lab1)
   
 ## Lab 1 - Web Scraping (5%)
 
@@ -30,10 +32,12 @@
 4. Modify the code to perform web scraping on another website.
    * You may add additional functions to the code.
   
+[`Back to top`](#Lab1)
   
 ## Python Version
 **`Python`** **`3.9.18`** in  Anaconda environment
-
+  
+[`Back to top`](#Lab1)
   
 ## Libraries Used
 * [***datetime***](#datetime)
@@ -44,33 +48,42 @@
 * [***tkinter***](#tkinter)
   
 ### datetime
----
 `datetime` is part of the Python standard library and usually does not need to be installed separately.
+   
+[`Back to top`](#Lab1)
+[`Back to section`](#Libraries-Used)
   
 ### time
----
 `time` is part of the Python standard library and usually does not need to be installed separately.
+   
+[`Back to top`](#Lab1)
+[`Back to section`](#Libraries-Used)
   
 ### pathlib
----
 `datetime` is part of the Python standard library and usually does not need to be installed separately.
+   
+[`Back to top`](#Lab1)
+[`Back to section`](#Libraries-Used)
   
 ### BeautifulSoup
----
 Use the following command to install the BeautifulSoup library:
 ```css
 conda install beautifulsoup4
 ```
+   
+[`Back to top`](#Lab1)
+[`Back to section`](#Libraries-Used)
   
 ### Selenium 
----
 Use the following command to install the `Selenium`  library:
 ```css
 conda install -c conda-forge selenium
 ```
+   
+[`Back to top`](#Lab1)
+[`Back to section`](#Libraries-Used)
   
 ### tkinter
----
 There are no additional steps required to install the Tkinter library in an Anaconda environment, because the Tkinter library is usually part of the Python standard library, so it is automatically installed with the Python installation.   
 However, in some cases, especially on macOS systems, it may be necessary to manually install the Tkinter library.  
   
@@ -83,5 +96,7 @@ If the Tkinter library is installed, you will see it in the list. If it is not i
 ```css
 conda install tk
 ```
-
+   
 [`Back to top`](#Lab1)
+[`Back to section`](#Libraries-Used)
+  

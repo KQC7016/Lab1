@@ -67,7 +67,7 @@
   
 ### BeautifulSoup
 Use the following command to install the BeautifulSoup library:
-```css
+```cmd
 conda install beautifulsoup4
 ```
    
@@ -76,7 +76,7 @@ conda install beautifulsoup4
   
 ### Selenium 
 Use the following command to install the `Selenium`  library:
-```css
+```cmd
 conda install -c conda-forge selenium
 ```
    
@@ -89,7 +89,7 @@ However, in some cases, especially on macOS systems, it may be necessary to manu
   
 You can make sure the Tkinter library is installed by running the following command:  
 
-```css
+```cmd
 conda list tkinter
 ```
 If the Tkinter library is installed, you will see it in the list. If it is not installed, you can try to install it using the following command:

@@ -33,6 +33,6 @@
 5. [***pathlib***]
 
 ### datetime
-'''sql
+```css
 pip show datetime
-'''
+```

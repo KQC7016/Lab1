@@ -4,9 +4,14 @@
 ## Table of Contents
  * [***Members***](#Members)
  * [***Lab 1***](##Lab-1---Web-Scraping-5)
- * [***Environment***](#Environment)
-   * [***Python Version***](#Python-Version)
-   * [***Libraries Used***](#Libraries-Used)
+ * [***Python Version***](#Python-Version)
+ * [***Libraries Used***](#Libraries-Used)
+   * [***datetime***](#datetime)
+   * [***pathlib***](#datetime)
+   * [***BeautifulSoup***](#BeautifulSoup)
+   * [***time***](#datetime)
+   * [***Selenium***](#Selenium)
+   * [***tkinter***](#tkinter)
 
 
 
@@ -26,46 +31,45 @@
 4. Modify the code to perform web scraping on another website.
    * You may add additional functions to the code.
 
-## Environment
 
-### Python Version
+## Python Version
 **`Python`** **`3.9.18`** in  Anaconda environment
   
-### Libraries Used
-1. [***datetime***](#datetime)
-2. [***pathlib***](#datetime)
-3. [***BeautifulSoup***](#BeautifulSoup)
-4. [***time***](#datetime)
-5. [***Selenium***](#Selenium)
-6. [***tkinter***](#tkinter)
+## Libraries Used
+* [***datetime***](#datetime)
+* [***pathlib***](#datetime)
+* [***BeautifulSoup***](#BeautifulSoup)
+* [***time***](#datetime)
+* [***Selenium***](#Selenium)
+* [***tkinter***](#tkinter)
 
-#### datetime
+### datetime
 ---
 `datetime` is part of the Python standard library and usually does not need to be installed separately.
   
-#### time
+### time
 ---
 `time` is part of the Python standard library and usually does not need to be installed separately.
 
-#### pathlib
+### pathlib
 ---
 `datetime` is part of the Python standard library and usually does not need to be installed separately.
 
-#### BeautifulSoup
+### BeautifulSoup
 ---
 Use the following command to install the BeautifulSoup library:
 ```css
 conda install beautifulsoup4
 ```
   
-#### Selenium 
+### Selenium 
 ---
 Use the following command to install the `Selenium`  library:
 ```css
 conda install -c conda-forge selenium
 ```
   
-#### tkinter
+### tkinter
 ---
 There are no additional steps required to install the Tkinter library in an Anaconda environment, because the Tkinter library is usually part of the Python standard library, so it is automatically installed with the Python installation.   
 However, in some cases, especially on macOS systems, it may be necessary to manually install the Tkinter library.  

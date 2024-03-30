@@ -46,6 +46,7 @@
 * [***time***](#datetime)
 * [***Selenium***](#Selenium)
 * [***tkinter***](#tkinter)
+* [***urlllib3***](#urlllib3)
   
 ### datetime
 `datetime` is part of the Python standard library and usually does not need to be installed separately.
@@ -68,7 +69,7 @@
 ### BeautifulSoup
 Use the following command to install the BeautifulSoup library:
 ```cmd
-conda install beautifulsoup4
+pip install beautifulsoup4
 ```
    
 [`Back to top`](#Lab1)
@@ -77,7 +78,7 @@ conda install beautifulsoup4
 ### Selenium 
 Use the following command to install the `Selenium`  library:
 ```cmd
-conda install -c conda-forge selenium
+pip install -c conda-forge selenium
 ```
    
 [`Back to top`](#Lab1)
@@ -90,13 +91,26 @@ However, in some cases, especially on macOS systems, it may be necessary to manu
 You can make sure the Tkinter library is installed by running the following command:  
 
 ```cmd
-conda list tkinter
+pip list tkinter
 ```
 If the Tkinter library is installed, you will see it in the list. If it is not installed, you can try to install it using the following command:
 ```cmd
-conda install tk
+pip install tk
 ```
    
 [`Back to top`](#Lab1)
 [`Back to section`](#Libraries-Used)
+  
+### urlllib3
+In old version python, `urlllib3` may be not installed with python or need to be updated.  
+  
+Install urlllib3
+```cmd
+pip install urllib3
+```
+  
+Update urlllib3
+```cmd
+pip install --upgrade urllib3
+```
   

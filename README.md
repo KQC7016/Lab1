@@ -36,8 +36,8 @@
 [`Back to top`](#Lab1)
   
 ## Python Version
-**`Python`** **`3.9.18`** in  Anaconda environment  
-**`Python`** **`3.7.0`** in  system environment
+**`Python`** **`3.9.18`**  
+**`Python`** **`3.7.0`**  
   
 [`Back to top`](#Lab1)
   

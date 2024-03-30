@@ -3,7 +3,7 @@
   
 ## Table of Contents
  * [***Members***](#Members)
- * [***Lab 1***](##Lab-1---Web-Scraping-5)
+ * [***Lab 1***](#lab-1---web-scraping-5)
  * [***Python Version***](#Python-Version)
  * [***Libraries Used***](#Libraries-Used)
    * [***datetime***](#datetime)

@@ -117,6 +117,19 @@ def bilibili_index_parsing(soup):
     bilibili_index_video_details(soup, bili_index_video_log)
 
 
+def wiki_parsing(soup):
+    # 找到页面标题并打印
+    title = soup.find("h1", id="firstHeading")
+    print("Page Title:", title.text.strip())
+
+    # 找到页面主要内容部分并打印
+    content = soup.find("div", class_="mw-parser-output")
+    paragraphs = content.find_all("p")
+    print("\nPage Content:")
+    for paragraph in paragraphs:
+        print(paragraph.text.strip())
+
+
 def html_parsing(html_content, url):
 
     # 使用 BeautifulSoup 解析 HTML 内容
@@ -128,24 +141,9 @@ def html_parsing(html_content, url):
     if "www.bilibili.com" in url:
         if url == "https://www.bilibili.com/":
             bilibili_index_parsing(soup)
-
-
-def main():
-
-    url = "https://www.bilibili.com/"
-
-    file_path = "F:/Works/Python/KQC7016/KQC7016-Lab1/page.txt"  # 文件路径
-
-    # 打开文件并读取内容
-    with open(file_path, "r") as file:
-        page = file.read()
-
-    url = add_https_prefix(url)
-
-    html_parsing(page, url)
-
-    print("***END***")
-
-
-if __name__ == "__main__":
-    main()
+    elif "wikipedia.org/" in url:
+        wiki_parsing(soup)
+    else:
+        print("Unsupported Website")
+        print("Program exited.")
+        exit()
